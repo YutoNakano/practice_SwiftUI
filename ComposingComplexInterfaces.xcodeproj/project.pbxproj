@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		57A709F022B0858D00DE0AE8 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A709EF22B0858D00DE0AE8 /* ProfileHost.swift */; };
 		57A709F322B08C4D00DE0AE8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A709F222B08C4D00DE0AE8 /* Profile.swift */; };
+		57B8BD0A22B10D7100B4C319 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B8BD0922B10D7100B4C319 /* ProfileSummary.swift */; };
+		57B8BD0C22B1115100B4C319 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B8BD0B22B1115100B4C319 /* HikeBadge.swift */; };
+		57B8BD0E22B1157100B4C319 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B8BD0D22B1157100B4C319 /* ProfileEditor.swift */; };
 		B7310DD1229F6839001079B9 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD0229F6839001079B9 /* HexagonParameters.swift */; };
 		B7310DD3229F6CA9001079B9 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD2229F6CA9001079B9 /* Badge.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
@@ -53,6 +56,9 @@
 /* Begin PBXFileReference section */
 		57A709EF22B0858D00DE0AE8 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		57A709F222B08C4D00DE0AE8 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		57B8BD0922B10D7100B4C319 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		57B8BD0B22B1115100B4C319 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		57B8BD0D22B1157100B4C319 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		A27B87A0A27B580000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		A4D4D040A4D4CB5000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		B7310DD0229F6839001079B9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
@@ -199,6 +205,9 @@
 				B7D587AD229F7382006E8DCF /* BadgeBackground.swift */,
 				B7D587BD229F82FF006E8DCF /* HikeGraph.swift */,
 				B7D587B7229F826D006E8DCF /* GraphCapsule.swift */,
+				57B8BD0922B10D7100B4C319 /* ProfileSummary.swift */,
+				57B8BD0B22B1115100B4C319 /* HikeBadge.swift */,
+				57B8BD0D22B1157100B4C319 /* ProfileEditor.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -336,14 +345,17 @@
 				B73948A1229F2E1F00C47603 /* LandmarkList.swift in Sources */,
 				B7D587B0229F73C1006E8DCF /* BadgeSymbol.swift in Sources */,
 				B7D587B2229F7406006E8DCF /* RotatedBadgeSymbol.swift in Sources */,
+				57B8BD0C22B1115100B4C319 /* HikeBadge.swift in Sources */,
 				B7D587D222A0892C006E8DCF /* Home.swift in Sources */,
 				B7D587BE229F82FF006E8DCF /* HikeGraph.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
 				B7D587AE229F7382006E8DCF /* BadgeBackground.swift in Sources */,
 				B739486A229F194000C47603 /* LandmarkDetail.swift in Sources */,
 				B739489F229F2D9700C47603 /* LandmarkRow.swift in Sources */,
+				57B8BD0A22B10D7100B4C319 /* ProfileSummary.swift in Sources */,
 				B7D2AAC5229F4D7C0061E5F5 /* UserData.swift in Sources */,
 				B7394881229F28B900C47603 /* Landmark.swift in Sources */,
+				57B8BD0E22B1157100B4C319 /* ProfileEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
